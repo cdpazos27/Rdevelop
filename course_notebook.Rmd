@@ -1,0 +1,65 @@
+---
+title: "Notes from course"
+author: "cdpazos27"
+date: "9/2/2021"
+output: html_document
+---
+### Types of Data Science
+
+  * Descriptive  
+    + **Describir o resumir datos**  
+    + NO SIRVE para estimar resultados de pequeñas  
+    + Tampoco sirve para hacer predicciones
+    + Obtienes datos y los mostras tranqui
+  * Exploratory  
+    + **Examinar los datos, y encontrar relaciones que no se habían visto**  
+    + Ayuda a formular hipótesis acerca de la correlación de ciertos datos para su posible predicción  
+    + OJO, no es para dar una desición final entre las relaciones entre las variables
+  * Inferential  
+    + **Usar una muestra de datos para decir algo sobre la población real**  
+    + El que más se parece a PyE  
+    + Estimas el valor de una variable para una población, tratando de tomar una desición precisamente
+    + OJO CUIDADO con las inferencias con muestras que no representan la población
+  * Predictive  
+    + **Usar los registros actuales e históricos para hacer predicciones en el futuro**
+    + La precisión de la predicción depende de la correcta medición de variables
+    + Existen varios modelos de predicción, que dependen de cada caso  
+    + Lo mismo que el inferencial, pero más complicado  
+  * Causal  
+    + **Ver qué le pasa a una variable cuando modificamos otra**
+    + Se usa en general en las simulaciones con datos aleatorios, para ver efectos causales en variables
+    + Ayuda a identificar las relaciones de variables  
+  * Mechanistic  
+    + **Entender los cambios ~~específicos~~ en las variables que llevan a cambios ~~específicos~~ en otras variables**
+    + Tan durasos de usar, a menos que se trate de datos de ecuaciones deterministas
+    + Se suele usar en datos de bioquímica, biología, genética, donde los patrones son específicos  
+    
+
+### Experiment Design
+
+Como científico de datos, hay que organizar experimentos para sacar resultados.
+Por ello, se debe diseñar los experimentos para asegurarnos de que tenemos los datos correctos y los resultados correctos.
+**Es importante porque muchas veces los informes científicos son retractados por errores!!!**
+
+Esto tiene un proceso:
+
+  * Formular la pregunta
+  * Diseñar Experimento
+  * Identificar problemas y fuentes de errores
+  * Coleccionar los datos
+  
+¿Cuales son los principios del diseño experimental?
+
+  * **Variable Independiente**: Aquellas variables que no necesariamente dependen de otro valor
+    + OJO, esto puede no ser así, por ejemplo. El aumento en la talla de remeras de las personas, este aumenta con la edad de ellas (obvio)
+  * **Variable Dependiente**: Aquellas variables de las que se miden los resultados en base a una independiente
+  * **Confounder**: justamente lo nombrado de las variables independientes  
+    + Aquellos casos donde una variable dependiente parece depender de una, pero en realidad depende de otra, que afecta a ambas 
+    
+[DataSharing - Guía para tomar y presentar datos](https://github.com/jtleek/datasharing)
+  
+
+
+
+
+
